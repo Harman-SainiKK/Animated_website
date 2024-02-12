@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #171717;
+}
+.nav{
+    height: 90px;
+    background-color: rgb( #FF671F, #FFFFFF, #046A38); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    border-bottom: 1px solid rgb(250, 242, 242);
+}
+button{
+    padding: 0.8vw 1.8vw;
+    border-radius: 2vw;
+    border: 2px solid red;
+    outline: none;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #171717;
+    cursor: pointer;
+}
+
+.container{
+    height: calc(100% - 90px);
+    width: 100%;
+    /* background-color: red; */
+    padding: 6vw 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 12vw;
+    text-align: center;
+    /* text-transform: uppercase   ; */
+    color: white;
+    line-height: 10vw;
+}
+i{
+    color: red;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 5vw;
+    /* border: 2px solid red; */
+    
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #171717;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    border-top: 1px solid rgb(250, 242, 242);
+}
+.page2 .box{
+    height: 20vw;
+    width: 20vw;
+    /* background-color: red; */
+    border: 2px solid rgb(250, 242, 242);
+    border-radius: 1vw;
+}
+.page2 h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    cursor: pointer;
+    color: whitesmoke;
+    border-bottom: 2px solid red;
+}
+
+.page2 p{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.footer{
+    height: 5vw;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(250, 242, 242);
+    padding: 0 2vw;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    /* font-weight: 900; */
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+    .page1{
+        height: 100vw;
+        width: 100%;
+        background-color: #171717;
+    }
+    .nav{
+        height: 60px;
+        background-color: rgb( #FF671F, #FFFFFF, #046A38); 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2vw;
+        border-bottom: 1px solid rgb(250, 242, 242);
+    }
+    button{
+        padding: 1.6vw 1.8vw;
+        border-radius: 5vw;
+        border: 1px solid red;
+        outline: none;
+        font-size: 4vw;
+        color: white;
+        background-color: #171717;
+        cursor: pointer;
+    }
+    .container{
+        height: calc(100% - 90px);
+        width: 100%;
+        /* background-color: red; */
+        padding: 6vw 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container h1{
+        font-size: 15vw;
+        text-align: center;
+        /* text-transform: uppercase   ; */
+        color: white;
+        line-height: 16vw;
+    }
+    i{
+        color: red;
+        text-align: center;
+        font-size: 12vw;
+        margin-top: 10vw;
+        /* border: 2px solid red; */
+        
+    }
+
+
+    .page2{
+        height: 100vw;
+        width: 100%;
+        background-color: #171717;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        border-top: 1px solid rgb(250, 242, 242);
+    }
+    .page2 .box{
+        height: 45vw;
+        width: 30vw;
+        /* background-color: red; */
+        border: 2px solid rgb(250, 242, 242);
+        border-radius: 1vw;
+        padding: 0 2vw;
+    }
+    .page2 h1{
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 900;
+        margin-top: 1.2vw;
+        cursor: pointer;
+        color: whitesmoke;
+        border-bottom: 1px solid red;
+    }
+    
+    .page2 p{
+        text-align: center;
+        margin-top: 2vw;
+        font-size: 2.1vw;
+        font-weight: 800;
+        color: whitesmoke;
+    }
+    
+    .footer{
+        height: 7vw;
+        width: 100%;
+        background-color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgb(250, 242, 242);
+        padding: 0 2vw;
+    }
+    .footer a{
+        text-decoration: none;
+        font-size: 3vw;
+        /* font-weight: 900; */
+        color: white;
+        cursor: pointer;
+    }
+    
+}
